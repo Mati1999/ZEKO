@@ -7,8 +7,8 @@ const App = () => {
     <>
       <Header />
       <main className="flex flex-col gap-10">
-        <div className="bg-[url(/homeImg.jpg)] bg-cover bg-no-repeat bg-center w-full h-100">
-          <h2 className="font-bold text-white text-sm text-center">
+        <div className="bg-[url(/homeImg.jpg)] bg-cover bg-no-repeat bg-center w-full h-100 flex justify-center items-center">
+          <h2 className="font-bold text-gray-900 text-xl text-center px-5">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia aperiam voluptatem iste exercitationem
             harum.
           </h2>

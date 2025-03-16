@@ -5,13 +5,13 @@ const Contacto = () => {
   return (
     <>
       <Header />
-      <main className="w-full h-dvh flex justify-center pt-20">
-        <div className="bg-[url(/homeImg.jpg)] bg-cover bg-no-repeat w-[80%] h-4/5 rounded-2xl flex justify-center items-center">
-          <div className="flex flex-col gap-3 items-center">
+      <main>
+        <div className="bg-[url(/homeImg.jpg)] bg-cover bg-no-repeat bg-center w-full h-100 flex flex-col justify-center items-center px-5">
+          <div className="w-full flex flex-col gap-3 items-center">
             <h3 className="text-4xl">Habla con nosotros</h3>
-            <div className="bg-gray-50 w-100 h-20 flex justify-around px-4">
-              <input className="text-xl focus: outline-none" type="text" placeholder="Tu correo Electrónico" />
-              <button className="w-full">Enviar</button>
+            <div className="bg-gray-50 w-full h-20 flex justify-between px-2">
+              <input className="w-full text-sm focus:outline-none" type="text" placeholder="Tu correo Electrónico" />
+              <button className="w-1/4">Enviar</button>
             </div>
           </div>
         </div>
