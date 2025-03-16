@@ -8,16 +8,16 @@ const Proyectos = () => {
       <Header />
       <main className="flex flex-col items-center py-15 px-10 h-3/4">
         <h3 className="font-bold text-4xl">Nuestro trabajo</h3>
-        <section className="w-full mt-10 flex flex-col gap-10 justify-evenly items-center">
-          <div className="w-70 rounded p-2">
-            <img className="w-full h-full rounded-xl" src={clientImg} alt="" loading="lazy" />
+        <section className="w-full mt-10 flex flex-col gap-10 justify-evenly items-center md:flex-row md:flex-wrap">
+          <div className="w-70 rounded p-2 md:w-[40%]">
+            <img className="w-full h-55 rounded-xl" src={clientImg} alt="" loading="lazy" />
             <h4 className="font-medium text-md my-1">Proyecto 1</h4>
             <p className="text-gray-500 text-sm">
               Diseñamos y creamos hermosas e intuitivas aplicaciones web. Priorizamos la experiencia de usuario y un
               enfoque moderno.
             </p>
           </div>
-          <div className="w-70  rounded p-2">
+          <div className="w-70  rounded p-2 md:w-[40%]">
             <img className="w-full h-55 rounded-xl" src={clientImg} alt="" loading="lazy" />
             <h4 className="font-medium text-md my-1">Proyecto 2</h4>
             <p className="text-gray-500 text-sm">
@@ -25,7 +25,7 @@ const Proyectos = () => {
               enfoque moderno.
             </p>
           </div>
-          <div className="w-70  rounded p-2">
+          <div className="w-70  rounded p-2 md:w-[40%]">
             <img className="w-full h-55 rounded-xl" src={clientImg} alt="" loading="lazy" />
             <h4 className="font-medium text-md my-1">Proyecto 3</h4>
             <p className="text-gray-500 text-sm">
@@ -33,7 +33,7 @@ const Proyectos = () => {
               enfoque moderno.
             </p>
           </div>
-          <div className="w-70  rounded p-2">
+          <div className="w-70  rounded p-2 md:w-[40%]">
             <img className="w-full h-55 rounded-xl" src={clientImg} alt="" loading="lazy" />
             <h4 className="font-medium text-md my-1">Proyecto 4</h4>
             <p className="text-gray-500 text-sm">

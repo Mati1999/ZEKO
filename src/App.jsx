@@ -16,7 +16,7 @@ const App = () => {
 
         <section className="w-auto h-auto flex flex-col items-center gap-10">
           <h3 className="font-bold text-4xl text-center">Como podemos ayudarte?</h3>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 md:flex-row">
             <div className="w-80 border rounded border-gray-300 p-2">
               <PaintBrushIcon className="size-6" />
               <h4 className="font-medium text-2xl">Diseño Web</h4>
@@ -37,7 +37,7 @@ const App = () => {
         </section>
         <section className="w-auto h-auto flex flex-col items-center">
           <h3 className="font-bold text-2xl text-center px-10">Listo para llevar tu presencia web a otro nivel?</h3>
-          <p className="font-light mb-5 px-10">
+          <p className="font-light mb-5 px-10 md:text-center md:mt-2">
             Estamos aquí para crear tu web totalmente profesional y personalizada que se adapte a tu marca y
             necesidades.
           </p>

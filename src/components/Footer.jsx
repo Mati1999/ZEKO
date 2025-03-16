@@ -4,8 +4,8 @@ import { CiInstagram } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <footer className="w-auto h-100 flex flex-col items-center justify-evenly mt-auto">
-      <div className="text-gray-500 flex flex-col justify-around items-center gap-5 w-3/4">
+    <footer className="w-auto h-100 flex flex-col items-center justify-evenly mt-auto md:h-60">
+      <div className="text-gray-500 flex flex-col justify-around items-center gap-5 w-3/4 md:flex-row">
         <NavLink to="/servicios" className="">
           Servicios
         </NavLink>
@@ -19,7 +19,7 @@ const Footer = () => {
           Contacto
         </NavLink>
       </div>
-      <div className="w-50 flex flex-col justify-center items-center gap-5">
+      <div className="w-50 flex justify-center items-center gap-5">
         <PiGithubLogoThin className="text-gray-500" />
         <CiInstagram />
       </div>

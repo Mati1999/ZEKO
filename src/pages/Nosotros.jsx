@@ -48,29 +48,29 @@ const Nosotros = () => {
         <section className="px-5 mt-10 flex flex-col items-center">
           <h3>Conoce al equipo</h3>
 
-          <div className="h-60 w-2/3 flex flex-col justify-between items-center border border-gray-300 rounded-sm shadow p-2 my-4">
-            <div className="flex flex-col items-center gap-4">
+          <div className="h-60 w-2/3 flex flex-col justify-between items-center border border-gray-300 rounded-sm shadow p-2 my-4 md:flex-row md:w-3/4   md:h-40">
+            <div className="flex flex-col items-center gap-4 md:flex-row">
               <img className="w-30 h-30 rounded-full" src={logo} alt="" loading="lazy" />
               <div>
                 <h4>Matias Aguilera</h4>
                 <h5>Web Developer</h5>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 ">
               <button>Ver perfil en LinkedIn</button>
               <button>Correo</button>
             </div>
           </div>
 
-          <div className="h-60 w-2/3 flex flex-col justify-between items-center border border-gray-300 rounded-sm shadow p-2 my-4">
-            <div className="flex flex-col items-center gap-4">
+          <div className="h-60 w-2/3 flex flex-col justify-between items-center border border-gray-300 rounded-sm shadow p-2 my-4 md:flex-row md:w-3/4   md:h-40">
+            <div className="flex flex-col items-center gap-4 md:flex-row">
               <img className="w-30 h-30 rounded-full" src={logo} alt="" loading="lazy" />
               <div>
                 <h4>Matias Aguilera</h4>
                 <h5>Web Developer</h5>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 ">
               <button>Ver perfil en LinkedIn</button>
               <button>Correo</button>
             </div>
