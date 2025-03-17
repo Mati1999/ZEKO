@@ -9,8 +9,8 @@ const Servicios = () => {
       <main className="flex flex-col items-center gap-5 py-5 px-10 h-3/4">
         <h3 className="font-bold text-4xl text-center">¿Cómo podemos ayudarte?</h3>
         <h4 className="w-auto text-2xl">¿Cómo trabajamos?</h4>
-        <section className="w-full flex flex-col gap-10 justify-evenly items-center md:flex-row md:flex-wrap">
-          <div className="w-70 rounded p-2 md:w-[40%]">
+        <section className="w-full flex flex-col gap-10 justify-evenly items-center md:flex-row md:flex-wrap lg:flex-nowrap">
+          <div className="w-70 rounded p-2 md:w-[40%] lg:w-[50%]">
             <img className="rounded-xl" src={clientImg} alt="" loading="lazy" />
             <h4 className="font-medium text-md my-1">Hablamos de tus necesidades</h4>
             <p className="text-gray-500 text-sm">
@@ -18,7 +18,7 @@ const Servicios = () => {
               enfoque moderno.
             </p>
           </div>
-          <div className="w-70  rounded p-2 md:w-[40%]">
+          <div className="w-70  rounded p-2 md:w-[40%] lg:w-[50%]">
             <img className="rounded-xl" src={clientImg} alt="" loading="lazy" />
             <h4 className="font-medium text-md my-1">Aprobación del presupuesto</h4>
             <p className="text-gray-500 text-sm">
@@ -26,7 +26,7 @@ const Servicios = () => {
               enfoque moderno.
             </p>
           </div>
-          <div className="w-70  rounded p-2 md:w-[40%]">
+          <div className="w-70  rounded p-2 md:w-[40%] lg:w-[50%]">
             <img className="rounded-xl" src={clientImg} alt="" loading="lazy" />
             <h4 className="font-medium text-md my-1">Desarrollo de la web</h4>
             <p className="text-gray-500 text-sm">
@@ -34,7 +34,7 @@ const Servicios = () => {
               enfoque moderno.
             </p>
           </div>
-          <div className="w-70  rounded p-2 md:w-[40%]">
+          <div className="w-70  rounded p-2 md:w-[40%] lg:w-[50%]">
             <img className="rounded-xl" src={clientImg} alt="" loading="lazy" />
             <h4 className="font-medium text-md my-1">Entrega final</h4>
             <p className="text-gray-500 text-sm">
