@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Servicio from "../components/Servicio";
 import clientImg from "/client.jpg";
 
 const Servicios = () => {
@@ -10,38 +11,30 @@ const Servicios = () => {
         <h3 className="font-bold text-4xl text-center">¿Cómo podemos ayudarte?</h3>
         <h4 className="w-auto text-2xl">¿Cómo trabajamos?</h4>
         <section className="w-full flex flex-col gap-10 justify-evenly items-center md:flex-row md:flex-wrap lg:flex-nowrap">
-          <div className="w-70 rounded p-2 md:w-[40%] lg:w-[50%]">
-            <img className="rounded-xl" src={clientImg} alt="" loading="lazy" />
-            <h4 className="font-medium text-md my-1">Hablamos de tus necesidades</h4>
-            <p className="text-gray-500 text-sm">
-              Diseñamos y creamos hermosas e intuitivas aplicaciones web. Priorizamos la experiencia de usuario y un
-              enfoque moderno.
-            </p>
-          </div>
-          <div className="w-70  rounded p-2 md:w-[40%] lg:w-[50%]">
-            <img className="rounded-xl" src={clientImg} alt="" loading="lazy" />
-            <h4 className="font-medium text-md my-1">Aprobación del presupuesto</h4>
-            <p className="text-gray-500 text-sm">
-              Diseñamos y creamos hermosas e intuitivas aplicaciones web. Priorizamos la experiencia de usuario y un
-              enfoque moderno.
-            </p>
-          </div>
-          <div className="w-70  rounded p-2 md:w-[40%] lg:w-[50%]">
-            <img className="rounded-xl" src={clientImg} alt="" loading="lazy" />
-            <h4 className="font-medium text-md my-1">Desarrollo de la web</h4>
-            <p className="text-gray-500 text-sm">
-              Diseñamos y creamos hermosas e intuitivas aplicaciones web. Priorizamos la experiencia de usuario y un
-              enfoque moderno.
-            </p>
-          </div>
-          <div className="w-70  rounded p-2 md:w-[40%] lg:w-[50%]">
-            <img className="rounded-xl" src={clientImg} alt="" loading="lazy" />
-            <h4 className="font-medium text-md my-1">Entrega final</h4>
-            <p className="text-gray-500 text-sm">
-              Diseñamos y creamos hermosas e intuitivas aplicaciones web. Priorizamos la experiencia de usuario y un
-              enfoque moderno.
-            </p>
-          </div>
+          <Servicio
+            img={clientImg}
+            titulo="Hablamos de tus necesidades"
+            text="Diseñamos y creamos hermosas e intuitivas aplicaciones web. Priorizamos la experiencia de usuario y un
+              enfoque moderno."
+          />
+          <Servicio
+            img={clientImg}
+            titulo="Aprobación del presupuesto"
+            text="Diseñamos y creamos hermosas e intuitivas aplicaciones web. Priorizamos la experiencia de usuario y un
+              enfoque moderno."
+          />
+          <Servicio
+            img={clientImg}
+            titulo="Desarrollo de la web"
+            text="Diseñamos y creamos hermosas e intuitivas aplicaciones web. Priorizamos la experiencia de usuario y un
+            enfoque moderno."
+          />
+          <Servicio
+            img={clientImg}
+            titulo="Entrega final"
+            text="Diseñamos y creamos hermosas e intuitivas aplicaciones web. Priorizamos la experiencia de usuario y un
+          enfoque moderno."
+          />
         </section>
         <section className="w-auto h-auto flex flex-col items-center mt-5">
           <div className="flex gap-3">
